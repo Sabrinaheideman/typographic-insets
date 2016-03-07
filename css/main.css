@@ -91,3 +91,19 @@ figure {
   float: right;
   width: 33.3%;
 }
+
+main > p:first-child::first-letter {
+  font-size: 5rem;
+  font-style: normal;
+  color: #f2f2f2;
+  display: block;
+  background-color: #666;
+  border-top: 3px solid #333;
+  border-bottom: 3px solid #333;
+  float: left;
+  width: 10%;
+  margin: 1rem;
+  margin-top: 0;
+  padding: 1rem;
+
+}
